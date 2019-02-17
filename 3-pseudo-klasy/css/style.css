@@ -1,0 +1,27 @@
+#name:hover {
+   background-color: orange;
+}
+
+#name:focus {
+    background-color: green;
+}
+
+.customer:first-child {
+    color: red;
+}
+
+.customer:last-child {
+    color: fuchsia;
+}
+
+.customer:nth-child(3) {
+    background-color: lightskyblue;
+}
+
+.customer:nth-child(2n + 6) {
+    background-color: lightsalmon;
+}
+
+.customer:nth-last-child(3n) {
+    background-color: yellowgreen;
+}
