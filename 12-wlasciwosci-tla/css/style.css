@@ -1,0 +1,8 @@
+#background-img {
+	background-color: gray;
+	background-image: url('../img/truskawka.jpg');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-position: center;
+	background-size: contain;
+}
