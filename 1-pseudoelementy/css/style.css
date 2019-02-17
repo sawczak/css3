@@ -1,0 +1,9 @@
+#pierwszy::before {
+    content: "text przed pierwszym paragrafem";
+    color: orange;
+}
+
+#drugi::after {
+    content: "po drugim paragrafie";
+    color: blue; 
+}
