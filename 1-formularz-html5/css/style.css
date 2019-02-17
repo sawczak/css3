@@ -1,0 +1,54 @@
+form {
+    background-color: #213b50;
+    color: white;
+    width: 600px;
+    padding: 20px;
+}
+
+form input, form select {
+    background-color: #2b4a64;
+    width: 300px;
+}
+
+form label {
+    display: block;
+}
+
+form input[type="checkbox"], form input[type="radio"] {
+    width: 10px;
+}
+
+form label[for*="male"] 
+{
+    display: inline;
+}
+
+form[name="city"] {
+    background-color: #2b4a64;
+    color: white;
+    display: block;
+}
+
+
+[name="message"] {
+    background-color: #2b4a64;
+    display: block;
+    width: 300px;
+}
+
+[type="submit"] {
+    background-color:green;
+    margin-top: 15px;
+    width: 70px;
+    height: 30px;
+}
+
+form label[for="agreement"] {
+    display: inline;
+}
+
+input:hover {
+    background-color: #4e708c;
+    border-color: white;
+}
+
