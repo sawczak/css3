@@ -12,7 +12,7 @@ Domyślne kolory 'flex-item' - START
     margin: 3px;
     background-color: orange;
     flex-basis: 15%;
-/*    flex-grow: 1;*/
+   flex-grow: 1;
 }
 
 .flex-item:nth-last-of-type(odd) {
@@ -34,10 +34,10 @@ Domyślne kolory 'flex-item' - END
 }
 
 .ordered-item {
-/*    flex-grow: 3;*/
+   flex-grow: 3;
 }
 
-
+/* jesli jest ustawiona wartość 1 dla każdego, to wolna przestrzeń rozkład aisę rownomiernie na wszystkie boxy. jeslijeden z boxow ma np. wartos 3, to wolna przestrzeń dzieli się na 6 (bo 3 wartosc + pozostale boxy po1), z czego ten co ma wartosc zabiera 3/6, a pozostałe po 1/6 pustego pola */
 
 
 
