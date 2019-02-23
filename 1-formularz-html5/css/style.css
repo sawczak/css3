@@ -29,7 +29,6 @@ form[name="city"] {
     display: block;
 }
 
-
 [name="message"] {
     background-color: #2b4a64;
     display: block;
@@ -51,4 +50,3 @@ input:hover {
     background-color: #4e708c;
     border-color: white;
 }
-
