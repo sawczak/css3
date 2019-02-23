@@ -20,7 +20,7 @@ div {
 	transform: scale(2,2);
 }
 
-.animation img {
+/* .animation img {
 animation: realize;
 animation-duration: 5s;
 animation-iteration-count: infinite;
@@ -34,4 +34,22 @@ animation-iteration-count: infinite;
 		height: 400px;
 	}
 
-}
+} */
+
+.animation img {
+	animation: realize;
+	animation-duration: 5s;
+	animation-iteration-count: 2;
+	animation-fill-mode: forwards;
+	}
+	
+	@keyframes realize {
+		0%, 100% {
+			height: 300px;
+		}
+		20% {
+			height: 400px;
+		}
+	
+	}
+	/* 	transform: rotate(15deg) translate(-20deg,0px); */
