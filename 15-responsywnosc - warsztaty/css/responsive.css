@@ -1,0 +1,38 @@
+#gallery {
+    width: 100%;
+}
+
+figure {
+    width: 33%;
+}
+
+section#gallery {
+    font-size: 0;
+}
+
+section#gallery header{
+    font-size: 16px;
+}
+
+section#gallery figure{
+    font-size: 12px;
+}
+
+@media (max-width: 992px) {
+    figure {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    figure {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    figure {
+        width: 100%;
+    }
+} 
+
