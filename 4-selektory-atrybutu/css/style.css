@@ -3,7 +3,7 @@
 }
 
 [title="About me"] {
-    color: orange;
+    color: black;
 }
 
 [title~="Container"] {
@@ -11,7 +11,7 @@
 }
 
 [title*="tainer"] {
-    background-color: greenyellow;
+    background-color: rgb(206, 47, 255);
 }
 
 [title^="More"] {
