@@ -19,7 +19,7 @@
 }
 
 .customer:nth-child(2n + 6) {
-    background-color: lightsalmon;
+    background-color: yellow;
 }
 
 .customer:nth-last-child(3n) {
